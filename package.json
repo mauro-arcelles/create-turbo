@@ -1,0 +1,29 @@
+{
+  "name": "@mauro-arcelles/create-turbo",
+  "version": "1.0.0",
+  "description": "Empty Turbo repo starter kit",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "clean:workspace": "turbo clean"
+  },
+  "keywords": [
+    "stater-kit",
+    "turborepo"
+  ],
+  "author": "Adrian Arcelles",
+  "license": "MIT",
+  "engines": {
+    "node": ">=v18.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauro-arcelles/create-turbo.git"
+  },
+  "packageManager": "pnpm@9.10.0",
+  "dependencies": {
+    "turbo": "^2.1.2"
+  }
+}
