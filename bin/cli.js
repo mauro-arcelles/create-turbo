@@ -20,11 +20,11 @@ console.log(`Initializing the repository...\n\n`);
 const checkedout = runCommand(gitCheckoutCommand);
 if (!checkedout) process.exit(-1);
 
-// Eliminar la carpeta .git
+// delete .git folder
 const gitFolder = path.join(process.cwd(), repoName, '.git');
 fs.rmSync(gitFolder, { recursive: true, force: true });
 
-// Eliminar la carpeta bin
+// delete bin folder
 const binFolder = path.join(process.cwd(), repoName, 'bin');
 fs.rmSync(binFolder, { recursive: true, force: true });
 
