@@ -1,6 +1,6 @@
 {
   "name": "@mauro-arcelles/create-turbo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Empty Turbo repo starter kit",
   "bin": "./bin/cli.js",
   "scripts": {
